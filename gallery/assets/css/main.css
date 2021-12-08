@@ -176,18 +176,18 @@ figure{
 #nav {
 	color: #000000;
 	padding: 0.3em;
-	background-color: red;
+	background-color: #DADADA;
 	cursor: default;
 	text-align: center;
 }
 /* Nav anchor*/
 #nav a{
-	color:lightblue;
+	color:#9C9C9C;
 	font-size:1.1em;
 }
 /* Nav anchor on mouse hover*/	
 #nav a:hover {
-	color: red;
+	color: #636363;
 }
 /* Nav list item*/
 #nav ul {
@@ -226,12 +226,12 @@ figure{
 
 /* Nav list each item anchor on mouse hover*/
 #nav ul li a:hover {
-	background-color: lightblue;
+	background-color: rgba(222, 222, 222, 0.25);
 }
 
 /* Nav list each item anchor selected*/
 #nav ul li a.active {
-	background-color: red;
+	background-color: #F0F0F0;
 	box-shadow: none;
 }
 
@@ -382,7 +382,7 @@ figure{
   padding: 50px;
   padding-top: 100px;
   
-  background: red;
+  background: #DADADA;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
