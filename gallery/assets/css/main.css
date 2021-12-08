@@ -176,18 +176,18 @@ figure{
 #nav {
 	color: #000000;
 	padding: 0.3em;
-	background-color: #DADADA;
+	background-color: #ccc;
 	cursor: default;
 	text-align: center;
 }
 /* Nav anchor*/
 #nav a{
-	color:#9C9C9C;
+	color:black;
 	font-size:1.1em;
 }
 /* Nav anchor on mouse hover*/	
 #nav a:hover {
-	color: #636363;
+	color: blue;
 }
 /* Nav list item*/
 #nav ul {
@@ -382,7 +382,7 @@ figure{
   padding: 50px;
   padding-top: 100px;
   
-  background: #DADADA;
+  background: #ccc;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -395,6 +395,7 @@ figure{
 
 #menu li
 {
+  color: black;
   padding: 10px 0;
   font-size: 22px;
 }
