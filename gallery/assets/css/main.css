@@ -253,6 +253,7 @@ figure{
   left: 20px;
   width: fit-content;
   z-index: 1;
+  color: #ccc;
   
   -webkit-user-select: none;
   user-select: none;
@@ -264,7 +265,7 @@ figure{
 #menuToggle a
 {
   text-decoration: none;
-  color: #9C9C9C;
+  color: black;
   
   transition: color 0.3s ease;
 }
@@ -274,7 +275,7 @@ figure{
 */
 #menuToggle a:hover
 {
-  color: #636363;
+  color: blue;
 }
 
 /*
