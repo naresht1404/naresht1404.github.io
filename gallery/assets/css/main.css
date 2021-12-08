@@ -226,12 +226,12 @@ figure{
 
 /* Nav list each item anchor on mouse hover*/
 #nav ul li a:hover {
-	background-color: rgba(222, 222, 222, 0.25);
+	background-color: lightblue;
 }
 
 /* Nav list each item anchor selected*/
 #nav ul li a.active {
-	background-color: #F0F0F0;
+	background-color: red;
 	box-shadow: none;
 }
 
