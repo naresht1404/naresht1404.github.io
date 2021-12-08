@@ -182,12 +182,12 @@ figure{
 }
 /* Nav anchor*/
 #nav a{
-	color:#9C9C9C;
+	color:lightblue;
 	font-size:1.1em;
 }
 /* Nav anchor on mouse hover*/	
 #nav a:hover {
-	color: #636363;
+	color: red;
 }
 /* Nav list item*/
 #nav ul {
