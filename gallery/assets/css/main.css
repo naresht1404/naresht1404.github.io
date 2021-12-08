@@ -176,18 +176,18 @@ figure{
 #nav {
 	color: #000000;
 	padding: 0.3em;
-	background-color: #DADADA;
+	background-color: red;
 	cursor: default;
 	text-align: center;
 }
 /* Nav anchor*/
 #nav a{
-	color:#9C9C9C;
+	color:green;
 	font-size:1.1em;
 }
 /* Nav anchor on mouse hover*/	
 #nav a:hover {
-	color: #636363;
+	color: blue;
 }
 /* Nav list item*/
 #nav ul {
