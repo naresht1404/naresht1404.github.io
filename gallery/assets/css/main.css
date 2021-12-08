@@ -176,7 +176,7 @@ figure{
 #nav {
 	color: #000000;
 	padding: 0.3em;
-	background-color: green;
+	background-color: red;
 	cursor: default;
 	text-align: center;
 }
@@ -382,7 +382,7 @@ figure{
   padding: 50px;
   padding-top: 100px;
   
-  background: green;
+  background: red;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
