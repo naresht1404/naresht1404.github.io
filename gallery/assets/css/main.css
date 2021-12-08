@@ -176,18 +176,18 @@ figure{
 #nav {
 	color: #000000;
 	padding: 0.3em;
-	background-color: #ccc;
+	background-color: #DADADA;
 	cursor: default;
 	text-align: center;
 }
 /* Nav anchor*/
 #nav a{
-	color:black;
+	color:#9C9C9C;
 	font-size:1.1em;
 }
 /* Nav anchor on mouse hover*/	
 #nav a:hover {
-	color: blue;
+	color: #636363;
 }
 /* Nav list item*/
 #nav ul {
@@ -253,7 +253,6 @@ figure{
   left: 20px;
   width: fit-content;
   z-index: 1;
-  color: #ccc;
   
   -webkit-user-select: none;
   user-select: none;
@@ -265,7 +264,7 @@ figure{
 #menuToggle a
 {
   text-decoration: none;
-  color: black;
+  color: #9C9C9C;
   
   transition: color 0.3s ease;
 }
@@ -275,7 +274,7 @@ figure{
 */
 #menuToggle a:hover
 {
-  color: blue;
+  color: #636363;
 }
 
 /*
@@ -318,7 +317,7 @@ figure{
   margin-bottom: 5px;
   position: relative;
   
-  background: #ccc;
+  background: #fff;
   border-radius: 3px;
   
   z-index: 1;
@@ -383,7 +382,7 @@ figure{
   padding: 50px;
   padding-top: 100px;
   
-  background: #ccc;
+  background: #DADADA;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -396,7 +395,6 @@ figure{
 
 #menu li
 {
-  color: black;
   padding: 10px 0;
   font-size: 22px;
 }
@@ -406,7 +404,6 @@ figure{
  */
 #menuToggle input:checked ~ ul
 {
-  color: blue;
   transform: none;
 }
 /* scroll button design*/
