@@ -1,0 +1,50 @@
+<!-- we will add both web and mobile navigation code but based on user agent(device) 
+  we will set other device navigation bar diplay to none-->
+  
+<!-- Mobile Navigator -->
+<nav role="navigation" id="hamburger">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" id="hamburger-checkbox"/>
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+  
+    <ul id="menu">
+      <a href="./home.html" id="indexmenu"><li>Home</li></a>
+      <a href="./exhibitions.html" id="exhibitionsmenu"><li>Exhibitions</li></a>
+      <a href="./artists.html" id="artistsmenu"><li>Artists</li></a>
+      <a href="./news.html" id="newsmenu"><li>News</li></a>
+      <a href="./about.html" id="aboutmenu"><li>About</li></a>
+    </ul>
+  </div>
+</nav>
+
+<!-- Web Navigator-->
+<header id="header" class="header-background">
+	<div onclick="window.location.href = './home.html';" >
+    <h1 class="text-center">Kale Gallery</h1>
+  </div>
+	<div class="menu-top"></div>
+</header>
+<nav id="nav">
+	<ul>
+		<li><a href="./home.html" class="active" id="indexitem">Home</a></li>
+		<li><a href="./exhibitions.html" id="exhibitionsitem">Exhibitions</a></li>
+		<li><a href="./artists.html" id="artistsitem">Artists</a></li>
+		<li><a href="./news.html" id="newsitem">News</a></li>
+		<li><a href="./about.html" id="aboutitem">About</a></li>
+	</ul>
+</nav>
+

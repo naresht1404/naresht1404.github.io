@@ -1,0 +1,511 @@
+/*
+ * font family and background for total body
+ */
+body{
+	font-family:Cambria;
+	margin:0em;
+	background-color: #F0F0F0;
+}
+/*
+ * main header changes
+ */
+h1{
+	font-weight:bold;
+	margin:0px;
+	padding:2%;
+}
+/*
+ * page body header changes
+ */
+h2{
+	margin:0px;
+	padding:1%;
+	font-size:2em;
+}
+/*
+ * all anchors color
+ */
+a{
+	color:#2e68ff;
+}
+/*
+ * welcome message alignment
+ */
+#welcome-msg{
+	z-index:2;
+	margin-top:-30em;
+	text-align:center;
+	color:#fff;
+}
+/*
+ * welcome message background Image
+ */
+.main-img img{
+	width:100%;
+	height:100%;
+}
+/*
+ * welcome message below link div
+ */
+#gallery-visit{
+	text-align:center;
+	margin-top: 2em;
+}
+/*
+ * welcome message below link css
+ */
+#gallery-visit a{
+	color:#fff;
+	text-decoration:none;
+	background: transparent;
+    	border: 2px solid #fff;
+	padding:1em;
+	border-radius: 4px;
+	font-weight:bold;
+}
+/*
+ * welcome message below link on mouse hover
+ */
+#gallery-visit a:hover{
+	background: #fff;
+	color:#000;
+}
+
+.landing-page{
+	background-image: url('assets/images/gallery.jpg');
+	height: 100%;
+}
+/*
+ * default it should be hidden for mobile only visible
+ */
+#hamburger{
+	display:none;
+}
+/*
+ * top menu bottom bar
+ */
+.menu-top{
+	background-color: #9C9C9C;
+	padding:0.3%;
+}
+/*
+ * text align center
+ */
+.text-center{
+	text-align:center
+}
+/*
+ * header background color
+ */
+.header-background{
+	background-color: #000;
+	color:#fff;
+}
+/*
+ * image block alignment
+ */
+.image-block{
+	text-align:left;
+	margin:1em;
+}
+/*
+ * alignment for image beside anchor
+ */
+.image-block a{
+	vertical-align: middle;
+	padding-left:3em;
+	font-size: 1.2em;
+}
+/*
+ * content alignment
+ */
+.content-block{
+	margin:0 20%;
+	height:100%;
+	font-size:1.1em;
+}
+.landing-page .content-block{
+	margin:0px;
+}
+/*
+ * content end
+ */
+.content-end{
+	padding-bottom: 1em;
+}
+/*
+ * if device viewing size is less then breaking the word
+ */
+.content-wrapper{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+}
+/*
+ * figure contains images changes 
+ */
+figure{
+	display: inline-block;
+	margin: 0px;
+}
+/*
+ * article image dimentions 
+ */
+.image-block img{
+	width:10em;
+	height:10em;
+	display: inline-block;
+    	vertical-align: middle;
+}
+/*
+ * index page image dimentions 
+ */
+#index img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	height: 20em;
+	width: 30em;
+}
+.artist img{
+	height: 20em;
+	width: 30em;
+}
+/* base Navigation(Menu) */
+
+#nav {
+	color: #000000;
+	padding: 0.3em;
+	background-color: #DADADA;
+	cursor: default;
+	text-align: center;
+}
+/* Nav anchor*/
+#nav a{
+	color:#9C9C9C;
+	font-size:1.1em;
+}
+/* Nav anchor on mouse hover*/	
+#nav a:hover {
+	color: #636363;
+}
+/* Nav list item*/
+#nav ul {
+	margin: 0;
+	padding: 0 13%;
+	list-style: none;
+}
+/* Nav list each item*/
+#nav ul li {
+	-moz-transition: margin 0.2s ease;
+	-webkit-transition: margin 0.2s ease;
+	-ms-transition: margin 0.2s ease;
+	transition: margin 0.2s ease;
+	display: inline-block;
+	margin: 0 0.35em;
+	padding: 0;
+	width:17%;
+	vertical-align: middle;
+}
+/* Nav list each item anchor*/
+#nav ul li a {
+	-moz-transition: font-size 0.2s ease;
+	-webkit-transition: font-size 0.2s ease;
+	-ms-transition: font-size 0.2s ease;
+	transition: font-size 0.2s ease;
+	display: inline-block;
+	height: 2.25em;
+	line-height: 2.25em;
+	padding: 0 1.25em;
+	text-decoration: none;
+	border: 0;
+	border-radius: 18px;
+	box-shadow: inset 0 0 0 1px transparent;
+	font-weight: bold;
+}
+
+/* Nav list each item anchor on mouse hover*/
+#nav ul li a:hover {
+	background-color: rgba(222, 222, 222, 0.25);
+}
+
+/* Nav list each item anchor selected*/
+#nav ul li a.active {
+	background-color: #F0F0F0;
+	box-shadow: none;
+}
+
+/*
+ * hamburger changes
+ */
+#hamburger{
+  height:0px;
+}
+
+/*
+* Toggle for mobile menu
+*/
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: fit-content;
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/*
+* Toggle for mobile menu item
+*/
+#menuToggle a
+{
+  text-decoration: none;
+  color: #9C9C9C;
+  
+  transition: color 0.3s ease;
+}
+
+/*
+* Toggle for mobile menu item hover
+*/
+#menuToggle a:hover
+{
+  color: #636363;
+}
+
+/*
+* Toggle for selected mobile menu item 
+*/
+#menuToggle a.active
+{
+  color: #F0F0F0;
+}
+
+/*
+* hidden check box for X symbol in mobile menu
+*/
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #fff;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+/*
+* Toggle first child
+*/
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #9C9C9C;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 150px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 100px;
+  
+  background: #DADADA;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+/* scroll button design*/
+#scrollBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #DADADA;
+	color: #000;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+/* email form design*/					
+#emailForm{
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+}
+/* email form input fields design*/
+#emailForm input{
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+/* email form button design*/
+#emailForm button{
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* email form button on mouse hover*/
+#emailForm button:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* for responsive mobile design */
+@media screen and (max-width: 736px) {
+	/* image size for mobile */
+	.image-block img{
+		width:5em;
+		height:5em;
+	}
+	/* index page image size for mobile */
+	#index img {
+		height: 10em;
+		width: 15em;
+	}
+	/* artists page image size for mobile */
+	.artist img{
+		height: 10em;
+		width: 15em;
+	}
+	/* for mobile content block change*/
+	.content-block{
+		margin:0 10%;
+		padding-bottom:0.5%;
+	}
+	/* for mobile menu bottom change*/
+	.menu-top{
+		padding:0.6%;
+	}
+	/* for mobile image block anchor*/
+	.image-block a{
+		padding-left: 0.5em;
+		font-size: 1em;
+	}
+	/* for mobile image block anchor*/
+	h2{
+		padding:5%;
+	}
+	/*exhibitions page image alignment in mobile */
+	#exhibitions img{
+		width:100%;
+	}
+	/* for mobile hamburger showing*/
+	#hamburger{
+		display:block;
+	}
+	/* for mobile menu bar hiding*/
+	#nav{
+		display:none;
+	}
+	/* email form input fields design for mobile*/
+	#emailForm input{
+    		width: 150px;
+	}
+	/* for Mobile specific welcome msg title  */
+	#welcome-msg h2{
+		font-size:1em;
+	}
+
+}
